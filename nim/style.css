@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgba(41, 50, 65, 1); 
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(245, 255, 255);
+}
+
+h1{
+    font-size: 6vw;
+}
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(61, 90, 128, 1); }
+.My-Color-Theme-2-rgba { color: rgba(152, 193, 217, 1); }
+.My-Color-Theme-3-rgba { color: rgb(245, 255, 255); }
+.My-Color-Theme-4-rgba { color: rgb(240, 171, 154); }
+.My-Color-Theme-5-rgba { color: rgba(41, 50, 65, 1); }
+
+
+
+
+#beforeGame{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(245, 255, 255);
+}
+
+#beforeGame span{
+    padding: 1vw 3vw;
+    border: 2px solid rgba(61, 90, 128, 1); 
+    border-radius: 12px;
+}
+
+
+#game{
+    background-color: rgba(41, 50, 65, 1); 
+    padding: 2%;
+    margin: 0 auto;
+    width: 92%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 16px;
+}
+
+.baton{
+    width: 1.6vw;
+    height: 100%;
+    background-color: rgba(152, 193, 217, 1);
+    border-radius: 12px;
+}
+
+#players{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 18vh;
+}
+
+#players div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.Button{
+    padding: 1vw 3vw;
+    border: 2px solid rgba(61, 90, 128, 1); 
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.ButtonRetire{
+    background-color: rgb(131, 122, 120);
+}
